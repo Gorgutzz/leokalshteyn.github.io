@@ -3,8 +3,9 @@ import logo from './logo.svg';
 import space from './space.jpg';
 
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Portfolio from './Portfolio.js';
-import About from './About.js';
+import Portfolio from './components/Portfolio.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
 import './App.css';
 
 function App() {
