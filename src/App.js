@@ -1,33 +1,54 @@
-import React from 'react';
-import logo from './logo.svg';
-import space from './space.jpg';
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
 
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Portfolio from './components/Portfolio.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
 import './App.css';
 
-function App() {
-  return (
-    <BrowserRouter>
+class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      foo: 'bar',
+      resumeData: {}
+    };
+
+    ReactGA.initialize('UA-110570651-1');
+    ReactGA.pageview(window.location.pathname);
+
+  }
+
+  getResumeData(){
+    $.ajax({
+      url:'/resumeData.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({resumeData: data});
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount(){
+    this.getResumeData();
+  }
+
+  render() {
+    return (
       <div className="App">
-
-        <Route exact path="/" component={Portfolio} />
-        <Route path="/about" component={About} />
-
-        <div className="navigation">
-          <img src={space} className="logo-image" alt="Logo Image" />
-          <div className="navigation-sub">
-
-            <Link to="/" className="item">Portfolio</Link>
-            <Link to="/about" className="item">About</Link>
-
-          </div>
-        </div>
+        <About data={this.state.resumeData.main}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Contact data={this.state.resumeData.main}/>
       </div>
-    </BrowserRouter>
-  );
+    );
+  }
 }
 
 export default App;
