@@ -66,25 +66,25 @@
         "title":"Blood Bowl 2 Teams",
         "category":"This is an app that lets you browse all of the teams, players and star players that exist in the game Blood Bowl 2 along with their unique stats and information.",
         "image":"bb2-teams.jpg",
-        "url":""
+        "url":"https://drive.google.com/file/d/1KP40vipdZCdkogM5xx0BMuZY2lFw3d4o/view"
       },
       {
         "title":"Museum Manager",
         "category":"This app allows you to take the role of a museum manager where you can add, track and manage exhibits.",
         "image":"museum-manager.jpg",
-        "url":""
+        "url":"https://drive.google.com/file/d/1qRPhZKMd8UIsF8KfViHLCFU-TfrqNwgR/view"
       },
       {
         "title":"Book Library",
         "category":"A Sinatra App to keep track of books, their authors and which users posted them.",
         "image":"book-collection.jpg",
-        "url":""
+        "url":"https://drive.google.com/file/d/1qrtJD_2jGkb2_RZlwYEaElPoEdjzYDgM/view?usp=sharing"
       },
       {
-        "title":"",
-        "category":"",
-        "image":"",
-        "url":""
+        "title":"Planet Database",
+        "category":"This is an app that lets you add planets(specifically exo planets) to known star systems. This is a single page application with the Frontend built with HTML, CSS, and JavaScript and a backend with ruby on rails.",
+        "image":"planet-database.jpg",
+        "url":"https://drive.google.com/file/d/1rve9bd5k8QJ_yE5HUTshX13E4IqVRZ2F/view?usp=sharing"
       }
     ]
   }
