@@ -57,21 +57,21 @@
   "portfolio":{
     "projects": [
       {
-        "title":"",
-        "category":"",
-        "image":"",
+        "title":"Blood Bowl 2 Teams",
+        "category":"This is an app that lets you browse all of the teams, players and star players that exist in the game Blood Bowl 2 along with their unique stats and information.",
+        "image":"bb2-teams.jpg",
         "url":""
       },
       {
-        "title":"",
-        "category":"",
-        "image":"",
+        "title":"Museum Manager",
+        "category":"This app allows you to take the role of a museum manager where you can add, track and manage exhibits.",
+        "image":"museum-manager.jpg",
         "url":""
       },
       {
-        "title":"",
-        "category":"",
-        "image":"",
+        "title":"Book Library",
+        "category":"A Sinatra App to keep track of books, their authors and which users posted them.",
+        "image":"book-collection.jpg",
         "url":""
       },
       {
