@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 
-import Header from './Components/Header';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
+import Portfolio from './components/Portfolio.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
 import './App.css';
 
 class App extends Component {
@@ -44,10 +43,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
+        <Contact data={this.state.resumeData.main}/>
       </div>
     );
   }

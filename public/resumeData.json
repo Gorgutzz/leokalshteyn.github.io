@@ -1,6 +1,85 @@
 {
   "main": {
-    "image":"",
-    "bio":"",
-    },
+    "name":"Leo Kalshteyn",
+    "occupation":"Fullstack Web Developer",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "email": "Leo.Kalshteyn@gmail.com",
+    "phone": "646-262-9470",
+
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/leo-kalshteyn-97b885180/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/Gorgutzz",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"dev.to",
+        "url":"http://dev.to/gorgutzz",
+        "className":"fa fa-dev.to"
+      }
+    ]
   },
+  "resume":{
+    "education":[
+      {
+        "school":"Flatiron School",
+        "graduated":"May 2019 - February 2020",
+        "description":"Full Stack Web Development, Ruby on Rails and JavaScript online program."
+      },
+      {
+        "school":"Hunter College",
+        "degree":"Computer Science",
+        "graduated":"August 2014 - March 2017",
+        "description":"Completed 86 credits in Computer Science"
+      }
+    ],
+    "work":[
+      {
+        "company":"East Coast, LLC",
+        "title":"Technician",
+        "years":"April 2016 - June 2020",
+        "description":"Installing, configuring and supporting of wired/wireless survelliance equipment, including Network Video Recorders (NVR), IP cameras (IPC), Wi-Fi access points (AP) and associated network cabling."
+      },
+      {
+        "company":"Opus Energy, LLC",
+        "title":"Technician",
+        "years":"September 2014 - February 2016",
+        "description":"Installed, serviced and troubleshot HVAC equipment including control modules, actuators, temperature/pressure sensors and other measuring devices, circulating pumps, and various fans. Control, adjustment, and operational checks of components to assure reliability."
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      },
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      },
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      },
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      }
+    ]
+  }
+}
