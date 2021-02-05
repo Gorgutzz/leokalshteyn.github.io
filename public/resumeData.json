@@ -2,8 +2,8 @@
   "main": {
     "name":"Leo Kalshteyn",
     "occupation":"Fullstack Web Developer",
-    "image":"profilepic.jpg",
-    "bio":"Experienced in Ruby on Rails and JavaScript-based programming with a background in IT hardware installation. Broadly knowledgeable in the latest web technologies as well as principles and techniques in app development. Possesses strong skills in conveying technical information and learning new concepts.",
+    "image":"profile-pic-2.png",
+    "bio":"Experienced in Ruby on Rails and JavaScript based programming with a background in IT hardware installation. Broadly knowledgeable in the latest web technologies as well as principles and techniques in app development. Possess strong skills in conveying technical information and learning new concepts.",
     "email": "Leo.Kalshteyn@gmail.com",
     "phone": "646-262-9470",
 
@@ -63,28 +63,34 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Blood Bowl 2 Teams",
-        "category":"This is an app that lets you browse all of the teams, players and star players that exist in the game Blood Bowl 2 along with their unique stats and information.",
-        "image":"bb2-teams.jpg",
-        "url":"https://drive.google.com/file/d/1KP40vipdZCdkogM5xx0BMuZY2lFw3d4o/view"
-      },
-      {
         "title":"Museum Manager",
         "category":"This app allows you to take the role of a museum manager where you can add, track and manage exhibits.",
         "image":"museum-manager.jpg",
-        "url":"https://drive.google.com/file/d/1qRPhZKMd8UIsF8KfViHLCFU-TfrqNwgR/view"
+        "url":"https://museum-manager.herokuapp.com/"
       },
       {
         "title":"Book Library",
         "category":"A Sinatra App to keep track of books, their authors and which users posted them.",
         "image":"book-collection.jpg",
-        "url":"http://booklibrary.leokalshteyn.com/"
+        "url":"https://book-library-leo-kalshteyn.herokuapp.com"
       },
       {
         "title":"Planet Database",
         "category":"This is an app that lets you add planets(specifically exo planets) to known star systems. This is a single page application with the Frontend built with HTML, CSS, and JavaScript and a backend with ruby on rails.",
         "image":"planet-database.jpg",
-        "url":"https://drive.google.com/file/d/1rve9bd5k8QJ_yE5HUTshX13E4IqVRZ2F/view?usp=sharing"
+        "url":"https://planet-database.herokuapp.com/"
+      },
+      {
+        "title":"Quiz Buzz - Computer Science Edition",
+        "category":"A react app that allows the user to test their computer science knowledge with true or false questions.",
+        "image":"quizbuzz.png",
+        "url":"https://quiz-buzz-leo-kalshteyn.herokuapp.com/"
+      },
+      {
+        "title":"Blood Bowl 2 Teams",
+        "category":"This is an app that lets you browse all of the teams, players and star players that exist in the game Blood Bowl 2 along with their unique stats and information.",
+        "image":"bb2-teams.jpg",
+        "url":"https://github.com/Gorgutzz/bb2-teams-app"
       }
     ]
   }
